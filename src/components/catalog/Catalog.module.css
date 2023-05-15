@@ -1,0 +1,22 @@
+.catalogWrapper {
+  height: 100%;
+  width: 1110px;
+  margin: 0 auto;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.titleCategory {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.productsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 30px;
+}

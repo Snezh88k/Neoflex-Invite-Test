@@ -1,0 +1,73 @@
+.headerWrapper {
+  width: 1110px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #101010;
+}
+
+.bar {
+  display: flex;
+}
+
+.favor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.countCart {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ffa542;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.countLike {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ffa542;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
